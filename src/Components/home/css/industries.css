@@ -1,0 +1,61 @@
+#industries {
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .featuretitle {
+    color: var(--primary-2);
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 120%;
+  }
+  
+  .rowindustries {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+    padding: 60px 40px 40px;
+    width: 80%;
+  }
+  
+  .titleindustries {
+    margin: 0 15px 30px;
+    width: auto;
+  }
+  
+  .titleindustries a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .section-industries__icon {
+    margin-right: 10px;
+  }
+  
+  .section-industries__link-text {
+    font-size: 18px;
+  }
+  .icon-title-container {
+    text-align: center;
+  }
+  
+  .icon-container {
+    margin-bottom: 10px; /* Add margin between icon and title */
+  }
+  
+  .icon-container i {
+    display: block;
+    font-size: 20px; /* Adjust as needed */
+  }
+  

@@ -1,0 +1,189 @@
+.containerregister {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden; 
+
+  }
+
+  
+.rightregister {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    justify-content: center;
+  }
+  .rightregister h2{
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: 40px;
+  }
+
+  
+  input[type="email"],
+  input[type="tel"],
+  input[type="companywebsite"],
+  input[type="number"],
+  input[type="name"],
+  input[type="lastname"],
+  .pssword {
+    font-family: Inter, sans-serif;
+
+    align-items: center;
+    justify-content: center ;
+    background: #f9f9f9; /* Light gray background */
+    border: 1px solid #ccc; /* Lighter border color */
+    box-sizing: border-box;
+    cursor: text;
+    margin-right: 10px;
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+    width: 60%;
+    border-radius: 8px; /* Slightly rounded corners */
+    height: 50px; /* Reduced height for compactness */
+    margin-bottom: 20px;
+    margin-left: 20%;
+    padding: 0 15px; /* Adjusted padding for better spacing */
+    border-width: 1px;
+    font-size: 16px; /* Increased font size for better readability */
+    font-weight: 400;
+    color: #333; 
+  }
+
+  input[type="email"]:focus,
+  input[type="tel"]:focus,
+  input[type="companywebsite"]:focus,
+  input[type="number"]:focus,
+  input[type="name"]:focus,
+  input[type="lastname"]:focus,
+  input[type="password"]:focus {
+      outline: none; /* Remove default focus outline */
+      border-color: #ff8d72; /* Accent color on focus */
+      box-shadow: 0 0 0 3px rgba(255, 141, 114, 0.2); /* Soft focus effect */
+  }
+  
+  
+  button {
+    width: 80%;
+    padding: 10px 20px;
+    margin-left: 10% ;
+    color: var(--color--main-black);
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+
+  .linklogin {
+
+    justify-content: center;
+    font-size: 12px;
+    text-decoration: none;
+    color: #7047eb;
+    font-family:  sans-serif;
+  }
+
+
+  .top-left-link {
+    position: absolute;
+    top: 10px; /* Adjust the top position as needed */
+    left: 10px; /* Adjust the left position as needed */
+    color: #e2dafb; /* Text color */
+    font-family: Circe, sans-serif; /* Font family */
+    font-size: 14px; /* Font size */
+    font-weight: 500; /* Font weight */
+    text-decoration: none; /* Remove underline */
+    margin: 10px; /* Add margin as needed */
+  }
+  
+  .leftregister {
+    
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    background-color: #7047eb;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NjAiIGhlaWdodD0iMTA4MCIgZmlsbD0ibm9uZSI+PHBhdGggc3Ryb2tlPSJ1cmwoI2EpIiBzdHJva2Utd2lkdGg9IjIiIGQ9Im0zNjQuODQzLTU0Ny4yOTMtODkuODA3LTMzNS4xNjRMMTYwOS4yNi0zMDAuNDIxbC00ODIuNTkgMTI5LjMwOWMtOTggMjYuMjYtMTU2LjIzNiAxMjYuNzM4LTEzMC4wNiAyMjQuNDNsODkuODEgMzM1LjE2NC0xMzM0LjIyNS01ODIuMDM2IDQ4Mi41ODctMTI5LjMwOWM5OC4wMDQtMjYuMjU5IDE1Ni4yMzgtMTI2LjczOCAxMzAuMDYxLTIyNC40M1oiLz48cGF0aCBzdHJva2U9InVybCgjYikiIHN0cm9rZS13aWR0aD0iMiIgZD0iTTQzMy44OTctMjg5LjU4NiAzNDQuMDktNjI0Ljc1IDE2NzguMzEtNDIuNzE0IDExOTUuNzIgODYuNTkzYy05OCAyNi4yNi0xNTYuMjMgMTI2LjczOS0xMzAuMDYgMjI0LjQzbDg5LjgxIDMzNS4xNjVMLTE3OC43NTIgNjQuMTUzIDMwMy44MzUtNjUuMTU2Yzk4LjAwNC0yNi4yNiAxNTYuMjM4LTEyNi43MzggMTMwLjA2Mi0yMjQuNDNaIi8+PHBhdGggc3Ryb2tlPSJ1cmwoI2MpIiBzdHJva2Utd2lkdGg9IjIiIGQ9Im01MDQuMDY1LTI3LjcxLTg5LjgwNy0zMzUuMTY0TDE3NDguNDggMjE5LjE2MmwtNDgyLjU5IDEyOS4zMDljLTk4IDI2LjI2LTE1Ni4yMyAxMjYuNzM4LTEzMC4wNiAyMjQuNDNsODkuODEgMzM1LjE2NEwtMTA4LjU4MyAzMjYuMDNsNDgyLjU4Ny0xMjkuMzA5Yzk4LjAwNC0yNi4yNiAxNTYuMjM4LTEyNi43MzkgMTMwLjA2MS0yMjQuNDNaIi8+PHBhdGggc3Ryb2tlPSJ1cmwoI2QpIiBzdHJva2Utd2lkdGg9IjIiIGQ9Im01NzMuMTE4IDIyOS45OTgtODkuODA3LTMzNS4xNjVMMTgxNy41MyA0NzYuODY5bC00ODIuNTggMTI5LjMwOWMtOTguMDEgMjYuMjYtMTU2LjI0IDEyNi43MzgtMTMwLjA3IDIyNC40M2w4OS44MSAzMzUuMTYyTC0zOS41MyA1ODMuNzM3bDQ4Mi41ODctMTI5LjMwOWM5OC4wMDMtMjYuMjYgMTU2LjIzNy0xMjYuNzM5IDEzMC4wNjEtMjI0LjQzWiIvPjxwYXRoIHN0cm9rZT0idXJsKCNlKSIgc3Ryb2tlLXdpZHRoPSIyIiBkPSJtNjQyLjU0MyA0OTAuOTQ3LTg5LjgwNy0zMzUuMTY0TDE4ODYuOTYgNzM3LjgxOWwtNDgyLjU5IDEyOS4zMDljLTk4IDI2LjI2LTE1Ni4yNCAxMjYuNzM4LTEzMC4wNiAyMjQuNDMybDg5LjgxIDMzNS4xNkwyOS44OTQgODQ0LjY4Nmw0ODIuNTg3LTEyOS4zMDljOTguMDA0LTI2LjI2IDE1Ni4yMzgtMTI2LjczOCAxMzAuMDYyLTIyNC40M1oiLz48cGF0aCBzdHJva2U9InVybCgjZikiIHN0cm9rZS13aWR0aD0iMiIgZD0ibTcxMS4yMjMgNzQ4LjE5Mi04OS44MDctMzM1LjE2NUwxOTU1LjY0IDk5NS4wNjNsLTQ4Mi41OSAxMjkuMzA3Yy05OCAyNi4yNi0xNTYuMjQgMTI2Ljc0LTEzMC4wNiAyMjQuNDNsODkuODEgMzM1LjE3TDk4LjU3NCAxMTAxLjkzbDQ4Mi41ODgtMTI5LjMwOGM5OC4wMDMtMjYuMjYgMTU2LjIzNy0xMjYuNzM5IDEzMC4wNjEtMjI0LjQzWiIvPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjE1NjMuMTgiIHgyPSItMjAxLjcyNCIgeTE9Ii00ODMuNDQiIHkyPSItMTAuNTM1IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iI0I4REVERCIvPjxzdG9wIG9mZnNldD0iLjQ5IiBzdG9wLWNvbG9yPSIjQjhERUREIiBzdG9wLW9wYWNpdHk9Ii4yIi8+PHN0b3Agb2Zmc2V0PSIuNjA5IiBzdG9wLWNvbG9yPSIjQjhERUREIiBzdG9wLW9wYWNpdHk9Ii4yIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjQjhERUREIi8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImIiIHgxPSIxNjMyLjIzIiB4Mj0iLTEzMi42NzEiIHkxPSItMjI1LjczMyIgeTI9IjI0Ny4xNzEiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBzdG9wLWNvbG9yPSIjQjhERUREIi8+PHN0b3Agb2Zmc2V0PSIuNDkiIHN0b3AtY29sb3I9IiNCOERFREQiIHN0b3Atb3BhY2l0eT0iLjIiLz48c3RvcCBvZmZzZXQ9Ii42MDkiIHN0b3AtY29sb3I9IiNCOERFREQiIHN0b3Atb3BhY2l0eT0iLjIiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNCOERFREQiLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0iYyIgeDE9IjE3MDIuNCIgeDI9Ii02Mi41MDIiIHkxPSIzNi4xNDQiIHkyPSI1MDkuMDQ4IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iI0I4REVERCIvPjxzdG9wIG9mZnNldD0iLjQ5IiBzdG9wLWNvbG9yPSIjQjhERUREIiBzdG9wLW9wYWNpdHk9Ii4yIi8+PHN0b3Agb2Zmc2V0PSIuNjA5IiBzdG9wLWNvbG9yPSIjQjhERUREIiBzdG9wLW9wYWNpdHk9Ii4yIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjQjhERUREIi8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImQiIHgxPSIxNzcxLjQ1IiB4Mj0iNi41NSIgeTE9IjI5My44NTEiIHkyPSI3NjYuNzU1IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iI0I4REVERCIvPjxzdG9wIG9mZnNldD0iLjQ5IiBzdG9wLWNvbG9yPSIjQjhERUREIiBzdG9wLW9wYWNpdHk9Ii4yIi8+PHN0b3Agb2Zmc2V0PSIuNjA5IiBzdG9wLWNvbG9yPSIjQjhERUREIiBzdG9wLW9wYWNpdHk9Ii4yIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjQjhERUREIi8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImUiIHgxPSIxODQwLjg4IiB4Mj0iNzUuOTc1IiB5MT0iNTU0LjgiIHkyPSIxMDI3LjciIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBzdG9wLWNvbG9yPSIjQjhERUREIi8+PHN0b3Agb2Zmc2V0PSIuNDkiIHN0b3AtY29sb3I9IiNCOERFREQiIHN0b3Atb3BhY2l0eT0iLjIiLz48c3RvcCBvZmZzZXQ9Ii42MDkiIHN0b3AtY29sb3I9IiNCOERFREQiIHN0b3Atb3BhY2l0eT0iLjIiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNCOERFREQiLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0iZiIgeDE9IjE5MDkuNTYiIHgyPSIxNDQuNjU1IiB5MT0iODEyLjA0NSIgeTI9IjEyODQuOTUiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBzdG9wLWNvbG9yPSIjQjhERUREIi8+PHN0b3Agb2Zmc2V0PSIuNDkiIHN0b3AtY29sb3I9IiNCOERFREQiIHN0b3Atb3BhY2l0eT0iLjIiLz48c3RvcCBvZmZzZXQ9Ii42MDkiIHN0b3AtY29sb3I9IiNCOERFREQiIHN0b3Atb3BhY2l0eT0iLjIiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNCOERFREQiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48L3N2Zz4=');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+  .quote-wrapperregister {
+    max-width: 400px;
+  }
+  
+  .inner-contentregister {
+    text-align: center;
+  }
+  
+  .quoteregister {
+    font-family: Inter, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+    line-height: 48px;
+    font-size: 40px;
+    letter-spacing: -1.5px;
+  }
+
+  
+  .descriptionregister {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    
+  }
+  
+
+  
+  .descriptionregister svg {
+    margin-right: 10px;
+  }
+  
+  .descriptionregister svg path,
+  .descriptionregister svg circle {
+    fill: #fff; /* Icon color */
+    stroke: #fff; /* Icon border color */
+  }
+  
+  .descriptionregister svg path:nth-child(2) {
+    fill: none;
+  }
+
+  .descriptionregisterlabel  {
+    margin-bottom: 10px;
+    align-items: start;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    text-align: left;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+
+  }
+
+  
+
+  
+
+  

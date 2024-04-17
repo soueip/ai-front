@@ -1,0 +1,94 @@
+.containeranalyse {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: .6rem;
+  padding: 66px 40px 40px;
+  margin: 0 auto; /* This will center the container horizontally */
+}
+
+.containeranalyse h1 {
+  margin-bottom: 50px; 
+}
+
+.containerpictureanalyse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 60%;
+  height: 100%;
+  position: relative;
+}
+
+.left-pictureanalyse {
+  width: 100%; /* Adjusted width to 100% */
+  height: 38.5dvw;
+  border-radius: .6rem;
+  object-fit: cover;
+
+}
+img .left-pictureanalyse{
+ 
+  width: 100%; /* Set image width to 100% of its container */
+  height: 300%;
+  border-radius: .6rem;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+
+
+
+.right-pictureanalyse img {
+  height: 50%;
+  width: 100%;
+  border-radius: .6rem;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.picture-containeranalyse {
+  position: relative;
+  align-items: center;
+}
+
+.text-containeranalyse {
+  white-space: nowrap;
+  position: absolute;
+  bottom: 200%;
+  left: 20px;
+  background-color: white;
+  padding: 15px 25px;
+  border-radius: .6rem;
+  font-size: 56px;
+  font-weight: bold;
+  align-items: center;
+}
+
+.picture-textanalyse {
+  color: black;
+  font-size: 14px;
+}
+
+span {
+  margin-right: 5%;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .containerpictureanalyse {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .left-pictureanalyse,.right-pictureanalyse img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+
+  }
+}

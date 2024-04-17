@@ -1,0 +1,56 @@
+:root {
+  --color--main-black: black;
+  --base: #1a2024;
+  --color--white: white;
+  --primary-2: #7047eb;
+  --primary-hover: #5931d3;
+  --border: #eaeaea;
+  --lemon: #f5f58b;
+  --primary: #7f7f7f;
+  --white: white;
+  --color--purple: #7047eb;
+  --color--grey: #7f7f7f;
+  --color--black: #1a2024;
+  --yellow: rgba(245, 245, 139, .5);
+  --pink: rgba(237, 204, 223, .5);
+  --green: rgba(184, 222, 221, .5);
+  --mint: #b8dedd;
+  --popup-overlay: rgba(26, 32, 36, .35);
+  --color--purple-dark: #5931d3;
+  --color--yellow: #f5f58b;
+  --color--yellow-hover: #e2e247;
+  --radius--radius-20: 20px;
+  --color--grey-second: #d9d9d9;
+  --color--grey-border: #eaeaea;
+  --radius--radius-10: 10px;}
+
+.get-started-btn {
+  -webkit-text-size-adjust: 100%;
+  font-family: Inter, sans-serif;
+  box-sizing: border-box;
+  cursor: pointer;
+  border: 0;
+  background-color: var(--primary-2);
+  color: var(--color--white);
+  text-align: center;
+  white-space: nowrap;
+  border-radius: 10px; 
+  font-size: 1rem;
+  min-height: 42px;
+  justify-content: center;
+  padding: 15px 20px;
+  font-weight: 500;
+  line-height: 1.1em;
+  text-decoration: none;
+  transition: all .225s cubic-bezier(.55,.085,.68,.53);
+
+
+}
+
+.get-started-btn:hover {
+  background-color: var(--primary-hover);
+}
+
+.get-started-btn:focus {
+  outline: none;
+}

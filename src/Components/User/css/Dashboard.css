@@ -1,0 +1,10 @@
+.Dashboard {
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .dashboardItem {
+    flex: 1; /* Each item takes up equal space */
+  }
+  

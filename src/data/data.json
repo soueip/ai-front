@@ -1,0 +1,132 @@
+{
+  "Header": {
+    "title": "AI-Powered Audience Analytics and Smart Digital Signage",
+    "largeVideo": " img/landing/header.mp4"
+  },
+  
+  
+    "industries": [
+      {
+        "title": "Media Owners",
+        "link": "/industries/media-owners",
+        "icon": "fa fa-newspaper"
+      },
+      {
+        "title": "Malls",
+        "link": "/industries/malls",
+        "icon": "fa-shopping-bag"
+      },
+      {
+        "title": "Consumer Electronics",
+        "link": "/industries/consumer-electronics-retail",
+        "icon": "fa-laptop"
+      },
+      {
+        "title": "Restaurants&Cafes",
+        "link": "/industries/restaurants-and-cafes",
+        "icon": "fa fa-utensils"
+      },
+      {
+        "title": "Hotels&Resorts",
+        "link": "/industries/hotels-and-resorts",
+        "icon": "fa-hotel"
+      },
+      {
+        "title": "Food retail",
+        "link": "/industries/grocery-stores",
+        "icon": "fa-shopping-basket"
+      }
+    ],
+    "AnalysEngament": [
+      {
+        "title": "VISITOR INSIGHTS",
+        "link": "/industries/grocery-stores",
+        "icon": "<svg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M12.5 14C14.9853 14 17 11.9853 17 9.5C17 7.01472 14.9853 5 12.5 5C10.0147 5 8 7.01472 8 9.5C8 11.9853 10.0147 14 12.5 14Z' stroke='currentColor' strokeWidth='2' stroke-miterlimit='10'></path><path d='M19 10C17.1335 6.39316 13.7965 4 10.0071 4C6.2176 4 2.86646 6.39316 1 10' stroke='currentColor' strokeWidth='2' stroke-miterlimit='10' strokeLinecap='round'></path><path d='M1 10C2.96354 13.5726 6.16126 15.9312 9.8134 15.9985C13.569 16.0678 16.9387 13.695 19 10.0227' stroke='currentColor' strokeWidth='2' stroke-miterlimit='10' strokeLinecap='round' strokeLinejoin='round' stroke-dasharray='2 4'></path></svg>",
+        "pic": "img/landing/AnalysEngament1.jpg"
+      }
+,      
+      {
+        "title": "TARGETED DIGITAL SIGNAGE",
+        "link": "/industries/grocery-stores",
+        "icon": "<svg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M15 10C15 12.7614 12.7614 15 10 15C7.23858 15 5 12.7614 5 10C5 7.23858 7.23858 5 10 5' stroke='currentColor' strokeWidth='2' strokeLinecap='round'></path><path d='M10 10L17 3' stroke='currentColor' strokeWidth='2' strokeLinecap='round'></path><path d='M18 4H16V2L15 3V5H17L18 4Z' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round'></path><path d='M18.6933 7.67063C19.2061 9.58433 19.0731 11.6138 18.3149 13.4442C17.5567 15.2746 16.2158 16.8036 14.5 17.7942C12.7842 18.7848 10.7895 19.1816 8.82526 18.923C6.861 18.6644 5.03696 17.7649 3.63604 16.364C2.23511 14.963 1.3356 13.139 1.077 11.1747C0.818397 9.21048 1.21517 7.21578 2.20577 5.5C3.19638 3.78422 4.72545 2.44326 6.55585 1.68508C8.38625 0.926909 10.4157 0.793893 12.3294 1.30667' stroke='currentColor' strokeWidth='2' strokeLinecap='round'></path></svg>",
+        "pic": "img/landing/AnalysEngament2.jpg"
+      }
+,      
+      {
+        "title": "NO-CODE TEMPLATE & INTEGRATION EDITOR",
+        "link": "/industries/grocery-stores",
+        "icon": "<svg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'><rect x='1' y='1' width='6' height='6' stroke='currentColor' strokeWidth='2' strokeLinejoin='round'></rect><circle cx='16' cy='10' r='3' stroke='currentColor' strokeWidth='2'></circle><path d='M1 15.5L7 19L7 12L1 15.5Z' stroke='currentColor' strokeWidth='2' strokeLinejoin='round'></path><path d='M12 15C12 16.1046 11.1046 17 10 17' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round'></path><path d='M12 5C12 3.89543 11.1046 3 10 3' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round'></path></svg>",
+        "pic": "img/landing/AnalysEngament3.jpg"
+      }
+      
+
+    ],
+    "digitalscreens": [
+      {
+        "title": "DooH Ad sales automatization tool",
+        "link": "/industries/grocery-stores",
+        "icon": "<svg width='21' height='20' viewBox='0 0 21 20' fill='none' xmlns='http://www.w3.org/2000/svg'><circle cx='10.5' cy='1' r='1' fill='currentColor'></circle><circle cx='10.5' cy='19' r='1' fill='currentColor'></circle><circle cx='19.5' cy='10' r='1' transform='rotate(90 19.5 10)' fill='currentColor'></circle><circle cx='1.5' cy='10' r='1' transform='rotate(90 1.5 10)' fill='currentColor'></circle><circle cx='15.0001' cy='2.20575' r='1' transform='rotate(30 15.0001 2.20575)' fill='currentColor'></circle><circle cx='6.00006' cy='17.7942' r='1' transform='rotate(30 6.00006 17.7942)' fill='currentColor'></circle><circle cx='18.2941' cy='14.5001' r='1' transform='rotate(120 18.2941 14.5001)' fill='currentColor'></circle><circle cx='2.70575' cy='5.50006' r='1' transform='rotate(120 2.70575 5.50006)' fill='currentColor'></circle><circle cx='18.2941' cy='5.50006' r='1' transform='rotate(60 18.2941 5.50006)' fill='currentColor'></circle><circle cx='2.70575' cy='14.4999' r='1' transform='rotate(60 2.70575 14.4999)' fill='currentColor'></circle><circle cx='14.9999' cy='17.7943' r='1' transform='rotate(150 14.9999 17.7943)' fill='currentColor'></circle><circle cx='5.99994' cy='2.20575' r='1' transform='rotate(150 5.99994 2.20575)' fill='currentColor'></circle><path d='M6.5 14L10.5 5L14.5 14' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'></path><path d='M7.5 12H13.5' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'></path><path d='M10.5 1C12.0798 1 13.6318 1.41586 15 2.20577C16.3682 2.99569 17.5043 4.13183 18.2942 5.5' stroke='currentColor' stroke-width='2'></path></svg>",
+        "pic": "img/landing/digitalscreens1.jpg"
+      }
+      
+,      
+{
+  "title": "Self-service Ad sales portal (SSP/DSP)",
+  "link": "/industries/grocery-stores",
+  "icon": "<svg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M15 2L19 6L15 10' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'></path><path d='M5 10L1 14L5 18' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'></path><path d='M18 6H9' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'></path><path d='M5 6H5.5' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'></path><path d='M2 14H11' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'></path><path d='M15 14H14.5' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'></path></svg>",
+  "pic": "img/landing/digitalscreens2.jpg"
+}
+
+  ] ,
+
+ "worksinData": [
+    {
+      "heading": "B&",
+      "logos": [
+        "https://example.com/logo1.svg",
+        "https://example.com/logo2.svg",
+        "https://example.com/logo3.svg"
+      ]
+    },
+    {
+      "heading": "RETAILERS",
+      "logos": [
+        "https://example.com/logo4.svg",
+        "https://example.com/logo5.svg",
+        "https://example.com/logo6.svg"
+      ]
+    },
+    {
+      "heading": "MEDIA OWNERS",
+      "logos": [
+        "https://example.com/logo7.svg",
+        "https://example.com/logo8.svg",
+        "https://example.com/logo9.svg"
+      ]
+    },
+    {
+      "heading": "HORECA",
+      "logos": [
+        "https://example.com/logo10.svg",
+        "https://example.com/logo11.svg",
+        "https://example.com/logo12.svg"
+      ]
+    },
+    {
+      "heading": "BANKS, CORP COMMS, TRANSPORTATION",
+      "logos": [
+        "https://example.com/logo13.svg",
+        "https://example.com/logo14.svg",
+        "https://example.com/logo15.svg"
+      ]
+    }
+  ]
+  
+}
+  
+  
+  
+
+    
+  
+  

@@ -1,0 +1,49 @@
+.containerworksin{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  
+}
+
+.works-title{
+  font-size: 3rem;
+  margin-bottom: 60px;
+  color: #000000;
+  align-items: center;
+
+}
+.teams-use__grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  text-align: center; /* Center text within grid */
+}
+
+.teams-use__grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+}
+
+.teams-use__grid-heading {
+  color: var(--color--grey);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.2em;
+  margin-bottom: 50px;
+}
+
+.teams-use__grid img {
+
+  object-fit: fill;
+  max-width: 100%; /* Prevent images from overflowing container */
+  height: auto;
+}
+
+  .botumworksin{
+  width: 70%;
+  height: 50%;
+  }

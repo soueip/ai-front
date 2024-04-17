@@ -1,0 +1,99 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.headercontent {
+    display: flex;
+    text-align: center;
+    background-color: #f8f8f8;
+    border-radius: .6rem;
+    flex-direction: column;
+    align-items: center;
+    padding: 66px 40px 40px;
+    width: 60%;
+    margin-top: 10%;
+    }
+
+
+
+.headertitle {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #000000;
+
+}
+.headervideo {
+    align-items: center;
+    object-fit: cover;
+    width: 100%;
+    height: 400%; 
+    border-radius: .6rem;
+    top: 100%;
+    margin-bottom: 50px;
+}
+.buttons{
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.trynow-btn {
+    color: var(--color--purple);
+    margin: 20px;
+    text-decoration: none;
+}
+
+
+
+.trynow-btn:hover  svg {
+    transform: translateX(10px);
+    transition: transform 0.4s;
+    
+}
+
+svg:not(:root) {
+    display: inline-block;
+
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.hero-grey__points {
+    list-style: none;
+    padding: 0;
+    display: flex; 
+    cursor: default;
+}
+
+.hero-grey__point {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Adjust spacing between list items */
+}
+
+.hero-grey__point:last-child {
+    margin-right: 0; /* Remove margin from last list item */
+}
+
+.hero-grey__point-icon {
+    margin-right: 10px;
+}
+
+.hero-grey__point-icon svg {
+    width: 20px;
+    height: auto;
+    fill: none;
+    stroke: #7F7F7F;
+    stroke-width: 2;
+}
+
+.hero-grey__point-icon svg:first-child {
+    margin-bottom: -3px; /* Adjust as needed for alignment */
+}
+
+.hero-grey__point div {
+    font-size: 16px;
+    color: #7F7F7F;
+}
+

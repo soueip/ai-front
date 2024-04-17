@@ -1,0 +1,81 @@
+.campaignSchedule_container {
+    background-color: rgb(182, 193, 189);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    width: calc(50% - 16px);
+    height: 390px;
+    text-align: center;
+    background-image: url('https://prestacode.displayforce.ai/n/22fc4294baee8ee0446e.png');
+    background-position: center bottom; 
+    background-repeat: no-repeat; 
+    border-radius: 10px;
+    margin: 16px;
+    justify-content: center;
+}
+
+  
+.activeCampaigns_title {
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    color: rgb(255, 255, 255);
+
+  }
+  
+  .activeCampaigns_count {
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    font-weight: 400;
+    margin: 0;
+  }
+  
+  .totalCampaigns_title,
+  .plannedCampaigns_title {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    color: rgb(255, 255, 255);
+    margin: 5px;
+  }
+  
+  
+  .btns_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .campaigns_btn,
+  .schedule_btn {
+      background-color: transparent;
+      border: 1px solid rgb(255, 255, 255); /* Add unit to border-width */
+      border-radius: 4px;
+      color: rgb(255, 255, 255);
+      font-size: 16px;
+      padding: 12px 24px;
+      text-transform: uppercase;
+      cursor: pointer;
+      margin-right: 12px;
+
+  }
+  
+  .campaigns_btn:hover,
+  .schedule_btn:hover {
+    background-color: rgb(255, 255, 255);
+    color:rgb(182, 193, 189);
+  }
+  
+  .campaigns_btn:disabled,
+  .schedule_btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }

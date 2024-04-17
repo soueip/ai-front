@@ -1,0 +1,57 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 1%; /* Adjust width as needed */
+    background-color: rgb(22, 25, 28);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+
+    display: block;
+    color: rgb(113, 123, 138);
+    text-decoration: none;
+    position: relative; /* Position relative for child elements */
+    padding: 5px 0;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.sidebar a:active{
+    color: rgb(45, 196, 182);
+}
+
+/* Add the following styles to position the "Campaigns" text to the left of the SVG icon */
+.linkName_dSD {
+    display: none;
+    position: absolute;
+    left: 150%; /* Position to the right of the parent */
+    top: 50%;
+    transform: translateY(-50%);
+    background-color:  rgb(22, 25, 28);
+    padding: 8px;
+    border-radius: .5rem;
+}
+
+.sidebar a:hover .linkName_dSD {
+    display: block;
+}

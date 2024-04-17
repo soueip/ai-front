@@ -1,0 +1,95 @@
+.containerlogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20dvh;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .formlogin {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    background-color: #fff;
+    padding: 32px;
+
+  }
+  
+  .welcomelogin {
+    font-size: 36px;
+    font-weight: 400;
+
+    text-align: center;
+    font-family:  sans-serif;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  
+  .labellogin {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+  }
+  .labelltext{
+    color: #8d9e98;
+    font-size: 11px;
+    font-family:  sans-serif;
+  }
+  
+  .inputlogin {
+    all: unset;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .buttonlogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2dc4b6;
+    height: 36px;
+    padding: 0 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
+  .buttontext{
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+  }
+  
+  .buttonlogin:hover {
+    background-color: #28afa3;
+  }
+  .logintext{
+    margin-left: 10%;
+    margin-top: 2%;
+  }
+  .linklogin {
+
+    justify-content: center;
+    font-size: 12px;
+    text-decoration: none;
+    color: #96a09e;
+    font-family:  sans-serif;
+    
+  }
+  
+  .linklogin:hover {
+    text-decoration: underline;
+    color: #6f7b78;
+    transition: color .2s;
+  }

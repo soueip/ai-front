@@ -1,0 +1,114 @@
+
+.custom-navbar {
+    position: fixed; /* Make navbar fixed */
+    top: 0; /* Position at the top of the viewport */
+    left: 0; /* Align to the left */
+    width: 90%; /* Occupy full width of the viewport */
+    z-index: 1000; /* Ensure it's above other content */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: white;
+    color: var(--color--main-black); /* Changed text color to black for better visibility */
+
+}
+
+/* Rest of your styles remain the same */
+
+
+/* Logo styles */
+.logo {
+    margin-right: 20px;
+}
+
+.logo-link {
+    color: #000; /* Changed logo link color to black */
+    text-decoration: none;
+}
+
+/* Menu styles */
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0; /* Changed margin to 0 to reset */
+}
+
+.menu-item {
+    align-items: center;
+    margin-right: 30px;
+}
+
+.menu-link {
+    color:var(--color--main-black);
+    text-decoration: none;
+}
+
+/* Dropdown menu styles */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.menu-item:hover .dropdown-menu {
+    display: block;
+}
+
+
+
+.dropdown-menu-item {
+    display: block;
+    color: var(--color--main-black);
+    text-decoration: none;
+    padding: 10px 20px; /* Increased padding for better clickable area */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for background color and box shadow */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid transparent; /* Transparent border initially */
+
+}
+
+.dropdown-menu-item:hover {
+    background-color: #00000010; /* Darker background color on hover */
+
+   
+}
+
+
+
+/* Dropdown arrow styles */
+.dropdown-arrow {
+    margin-left: 5px; /* Adjust spacing as needed */
+    font-size: 25px; /* Adjust size as needed */
+    color: var(--color--main-black); /* Adjust color as needed */
+    transition: transform 0.2s ease; /* Add smooth transition */
+    vertical-align: middle; /* Align arrows vertically */
+    line-height: 1; /* Ensure consistent line height */
+}
+
+.menu-item:hover .dropdown-arrow {
+    transform: rotate(180deg); /* Rotate arrow on hover */
+}
+
+
+
+.login-btn {
+    padding: 10px 20px;
+    color: var(--color--main-black);
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.login-btn:hover{
+    text-decoration: underline;
+}

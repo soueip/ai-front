@@ -1,0 +1,129 @@
+/* cms.css */
+
+.cms-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: .6rem;
+    width: 80%;
+    height: auto;
+    padding: 40px;
+    margin: 40px auto;
+  }
+  
+  .column-left {
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+  }
+  
+  .column-left img {
+    width: 100%;
+    height: auto;
+    border-radius: .6rem;
+    object-fit: cover;
+  }
+  
+  .column-right {
+    flex: 1;
+    justify-self: start;
+    text-align: left; /* Align all text to start from the left */
+  }
+  
+  .main-title {
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .price-badge-container {
+    display: flex;
+    align-items: center; /* Align children vertically */
+  }
+  
+  .price-badge {
+    background-color: var(--lemon);
+    border-radius: .6rem;
+    font-size: 16px;
+    color: black;
+    width: 20%;
+    padding: 1.5%;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  
+  .price-text {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .services-list {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .service-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .service-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  .service-text{
+    font-size: 16px;
+    font-weight: bold;
+
+  }
+  .description-text {
+    margin-bottom: 20px;
+    font-size: 16px;
+   
+    color: #666;
+  }
+  
+  .buttons-wrapper {
+    margin: 40px;
+    width: 100%;
+  }
+  
+  .primary-button,
+  .secondary-button {
+    padding: 16px 24px;
+    text-decoration: none;
+    border-radius: .6rem;
+    text-align: center;
+    cursor: pointer;
+    
+  }
+  
+  .primary-button {
+    background-color: var(--primary-2);
+    color: #fff;
+    margin-right: 10px;
+    width: 40%;
+  }
+  
+  .secondary-button {
+    font-family:  sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: 1px solid var(--border);
+    color: var(--base);
+    border-radius: .6rem;
+    padding: 14px 24px;
+    font-weight: 500;
+    background-color: #fff;
+  }
+  
+  .bottom-text {
+    font-size: 16px;
+    color: #999;
+    margin-top: 10px;
+  }
+  
