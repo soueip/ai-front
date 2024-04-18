@@ -3,14 +3,13 @@
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 20px;
-    width: calc(50% - 16px);
+    width: 90%;
     height: 390px;
     text-align: center;
     background-image: url('https://prestacode.displayforce.ai/n/22fc4294baee8ee0446e.png');
     background-position: center bottom; 
     background-repeat: no-repeat; 
     border-radius: 10px;
-    margin: 16px;
     justify-content: center;
 }
 

@@ -1,10 +1,12 @@
 .Dashboard {
-    margin-left: 5%;
+    margin-left: 3.2%;
     display: flex;
     flex-wrap: wrap;
   }
   
   .dashboardItem {
     flex: 1; /* Each item takes up equal space */
+    width: 40%;
+    margin: 16px;
   }
   
